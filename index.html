@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Register - Mercader LTDA</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor__todo">
+        <div class="caja__trasera">
+            <div class="caja__trasera-login">
+                <h3>Already have an account?</h3>
+                <p>Sign in with your User Account</p>
+                <button id="btn__iniciar-sesion">Sign In</button>
+            </div>
+            <div class="caja__trasera-register">
+                <h3>New User?</h3>
+                <p>select ACCEPT to create a new account.</p>
+                <button id="btn__registrarse">Accept</button>
+            </div>
+        </div>
+
+        <!-- Form Log in -->
+
+        <div class="contenedor__login-register">       
+            <form action="" class="formulario__login">
+            <h2>User Log In</h2>
+            <!-- Correo para autenticacion -->
+            <input type="text" placeholder="abcd@example.com">
+
+            <!-- Password -->
+            <input type="password" placeholder="Password">
+            <button>Log In</button>
+        </form>
+
+        <!-- Form Register -->
+      
+        <form action="" class="formulario__register">
+            <h2>Register</h2>
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm Password">
+            <button>Register</button>
+        </form>
+        </div>       
+    </div>
+
+    <script src="js/animacion.js"></script>   
+</body>
+</html>

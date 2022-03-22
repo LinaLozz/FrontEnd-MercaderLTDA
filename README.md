@@ -6,4 +6,3 @@ The login form was built in
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 
 Would you like to see it? <a target="_blank" href = "https://linalozz.github.io/LinaLozano/loginform.html">CLICK HERE</a>
-Designed by: Lina Lozano
